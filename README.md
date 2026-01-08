@@ -99,11 +99,11 @@ Precision  Recall  F1-Score
 
 📸 Screenshots
 Web Interface:
-![Home](.SpamSence/screenshots/1st.png)
+![Home](SpamSence/screenshots/1st.png)
 
 Detection Result:
-![spam](.SpamSence/screenshots/2nd.png)
-![safe](.SpamSence/screenshots/3rd.png)
+![spam](SpamSence/screenshots/2nd.png)
+![safe](SpamSence/screenshots/3rd.png)
 
 ▶️ How to Run the Project
 
