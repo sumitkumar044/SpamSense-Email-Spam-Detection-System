@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpamSense</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-container">
+            <img src="https://cdn-icons-png.flaticon.com/512/3558/3558860.png" class="main-logo">
+        </div>
+        <h1>SpamSense <span>AI</span></h1>
+        <p class="subtitle">Enter email text to detect spam patterns</p>
+
+        <textarea id="emailInput" placeholder="Paste your email here..."></textarea>
+        <button id="analyzeBtn">Analyze Now</button>
+
+        <div id="result" class="result-box"></div>
+
+        <footer>SpamSense AI Security System</footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
