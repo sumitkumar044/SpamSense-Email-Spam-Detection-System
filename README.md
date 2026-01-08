@@ -4,7 +4,7 @@ A real-time Email/SMS Spam Detection Web Application built with HTML, CSS, JavaS
 It uses an Artificial Neural Network (ANN) trained with MLPClassifier to classify messages as Spam or Ham (Not Spam) with ~98% accuracy.
 
 🌐 Live Demo
-[View Live](https://unique-sawine-c8c18a.netlify.app/)
+[View Live](https://spamsense-email-spam-detection-system.onrender.com/)
 
 🎯 Objective
 
